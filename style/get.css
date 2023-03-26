@@ -1,0 +1,130 @@
+.page__get {
+    width: 100%;
+    margin-top: 104px;
+    margin-bottom: 108px;
+}
+
+.get {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.get__text {
+    margin-top: 46px;
+    margin-bottom: 58px;
+    max-width: 752px;
+}
+
+.get__form {
+    margin-bottom: 74px;
+    position: relative;
+}
+
+.form__feedback {
+    width: 734px;
+    margin-top: 74px;
+}
+
+.form__window {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    flex: 1 1;
+}
+
+.feedback__window {
+    width: 340px;
+    height: 70px;
+    padding: 30px 50px;
+    display: flex;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: none;
+    background-color: #F6F2F2;
+    border-color: none;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+input:focus {
+    background-color: #E0E0E0;
+    outline: none;
+}
+
+.feedback__message {
+    margin-top: 44px;
+    margin-bottom: 42px;
+    width: 100%;
+    height: 252px;
+    padding: 30px 50px;
+    display: flex;
+    box-sizing: border-box;
+    resize: none;
+    border-radius: 3px;
+    border: none;
+    background-color: #F6F2F2;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+textarea:focus {
+    background-color: #E0E0E0;
+    outline: none;
+}
+
+.feedback__action-button {
+    width: 100%;
+    background-color: #FF2D2D;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.get__contact {
+    margin-top: 74px;
+    width: 580px;
+    height: 470px;
+    position: absolute;
+    right: -180px;
+    background-color: #2D2D2D;
+}
+
+.contact__blok {
+    margin: 140px 82px;
+}
+
+.contact__heading {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.contact__text {
+    width: 314px;
+    margin: 30px 0 26px 0;
+    color: #FFFFFF;
+}
+
+.contact__mail {
+    margin: 30px 0 20px 0;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.contact__mail:hover {
+    text-decoration: underline;
+    color: #FF3F40;
+}
