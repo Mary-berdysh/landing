@@ -128,3 +128,12 @@ textarea:focus {
     text-decoration: underline;
     color: #FF3F40;
 }
+
+
+.get__right-box {
+    flex: 1 1 auto;
+}
+
+.box-color {
+    background-color: #2D2D2D;
+}
