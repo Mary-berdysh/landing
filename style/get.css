@@ -45,7 +45,6 @@
     border: none;
     background-color: #F6F2F2;
     border-color: none;
-    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -69,7 +68,6 @@ input:focus {
     border-radius: 3px;
     border: none;
     background-color: #F6F2F2;
-    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -102,7 +100,6 @@ textarea:focus {
 }
 
 .contact__heading {
-    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;

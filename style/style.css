@@ -1,5 +1,29 @@
+/*Local-font*/
+
+@font-face {
+    src: url('../fonts/Journalism_\(graphicsland.ru\).ttf') format('truetype');
+    font-family: 'serif';
+    font-weight: 400;
+}
+
+.blok__local-font {
+    max-width: 1248px;
+    width: 100%;
+    margin: 0 auto;
+    display: none;
+}
+
+.local-font {
+    font-family: 'Journalism', 'serif';
+    font-size: 80px;
+    font-weight: 400;
+}
+
+/*Page*/
+
 .page {
     margin: 0;
+    font-family: 'OpenSans', sans-serif;
     font-size: 16px;
     display: flex;
     flex-direction: column;
@@ -21,7 +45,6 @@
 }
 
 .section__heading {
-    font-family: 'OpenSans', sans-serif;
     font-size: 42px;
     line-height: 55px;
     letter-spacing: 0.4px;
@@ -31,7 +54,6 @@
 }
 
 .blok__heading {
-    font-family: 'OpenSans', sans-serif;
     font-size: 30px;
     line-height: 0px;
     letter-spacing: 0.3px;
@@ -40,7 +62,6 @@
 }
 
 .section__text {
-    font-family: 'OpenSans', sans-serif;
     font-size: 16px;
     line-height: 28px;
     color: #000000;
@@ -60,12 +81,12 @@
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
-    font-family: 'OpenSans', sans-serif;
     font-size: 18px;
     line-height: 34px;
     text-decoration: none;
     text-align: center;
     color: #FF2D2D;
+    cursor: pointer;
 }
 
 .action-button__red {
@@ -114,7 +135,6 @@
 }
 
 .navigation__list-link {
-    font-family: 'OpenSans', sans-serif;
     font-weight: 600;
     text-decoration: none;
     font-size: 14px;
@@ -153,7 +173,6 @@
 
 .intro__heading {
     margin: 0;
-    font-family: 'OpenSans', sans-serif;
     font-weight: 800;
     font-size: 60px;
     line-height: 72px;
@@ -186,4 +205,39 @@
     height: 70px;
     background: #FFFFFF;
     opacity: 0.8;
+}
+
+/*Footer*/
+
+.footer {
+    width: 100%;
+    height: 113px;
+    background-color: #313030;
+    padding-top: 48px;
+    box-sizing: border-box;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.footer__content-text {
+    color: #B8B8B8;
+}
+
+.footer__social {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer__social-link {
+    width: 33px;
+    height: auto;
+}
+
+.footer__social > .footer__social-link:not(:last-child) {
+    margin-right: 18px;
 }
