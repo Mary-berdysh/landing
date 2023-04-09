@@ -1,0 +1,49 @@
+.page__intro {
+  width: 100%;
+  padding: 100px 0 120px 0;
+}
+
+.intro {
+  padding: 100px 0;
+}
+
+.intro__containt {
+  position: relative;
+  max-width: 618px;
+}
+
+.intro__heading {
+  margin: 0;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 72px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #000000;
+}
+
+.intro__text {
+  margin: 36px 0 70px 0;
+  max-width: 544px;
+}
+
+.intro-img {
+  width: 552px;
+  height: auto;
+}
+
+.red-cube {
+  width: 552px;
+  height: 336px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FF2D2D;
+}
+
+.pink-cube {
+  width: 70px;
+  height: 70px;
+  background: #FFFFFF;
+  opacity: 0.8;
+}
