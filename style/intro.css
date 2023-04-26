@@ -47,3 +47,9 @@
   background: #FFFFFF;
   opacity: 0.8;
 }
+
+/*Responsive*/
+
+@media screen and (max-width: 1286px) {
+  
+}
