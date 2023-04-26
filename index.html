@@ -32,6 +32,9 @@
                 </ul>
             </nav>
         </header>
+        <div class="burger">
+            <span class="burger__line"></span>
+        </div>
     </div>
 
     <!--Intro-->
@@ -44,17 +47,15 @@
                     <p class="intro__text section__text">Lorem ipsum dolor sit amet, consectetur adipis cing elit,
                         sed do eiusmod tempor incididunt ut labore et. ectetur adig ipis cing elit,
                         sed do eiusmod tempor incididunt.</p>
-                    <a class="action-button action-button__red" href="">Contact Us</a>
+                    <a class="action-button action-button__intro" href="">Contact Us</a>
                 </div>
                 <div class="red-cube">
-                    <div class="pink-cube">
-                    </div>
+                    <iframe class="intro__video" src="https://www.youtube.com/embed/UoQpgdtzxLE"
+                        title="Университет Иннополис - лучший вуз для IT? Поступление, Startup House, кампус и столовая"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
                 </div>
-                <!--
-                <a class="intro-video" href="">
-                    <img class="intro-img" src="./img/intro-img.png" alt="red-window">
-                </a>
-                -->
             </section>
         </div>
 
@@ -140,14 +141,14 @@
                 </div>
                 <div class="product__bloks">
                     <div class="product__gallery">
-                        <div class="product__card"></div>
-                        <div class="product__card"></div>
-                        <div class="product__card"></div>
-                        <div class="product__card"></div>
-                        <div class="product__card"></div>
-                        <div class="product__card"></div>
-                        <div class="product__card"></div>
-                        <div class="product__card"></div>
+                        <div class="product__card work__1"></div>
+                        <div class="product__card work__2"></div>
+                        <div class="product__card work__3"></div>
+                        <div class="product__card work__4"></div>
+                        <div class="product__card work__5"></div>
+                        <div class="product__card work__6"></div>
+                        <div class="product__card work__7"></div>
+                        <div class="product__card work__8"></div>
                     </div>
                 </div>
             </section>
@@ -161,19 +162,19 @@
                     <h2 class="team__heading section__heading">Meet our team</h2>
                     <p class="team__text section__text">Lorem ipsum dolor sit amet,
                         consectetur adipis cing elit, sed dooing eiusmod
-                        tempor incididut labore Ui / Ux , print template.</p>
+                        tempor incididut labore Ui / Ux, print template.</p>
                     <hr class="line team_line">
                 </div>
                 <div class="team__person">
                     <div class="person__ava-heading">
-                        <div class="person__card"></div>
+                        <div class="person__card person_1"></div>
                     </div>
                     <div class="person__about">
                         <div class="person__info">
                             <h3 class="person__heading blok__heading">mark waugh</h3>
                             <p class="person__text section__text">Lorem ipsum dolor sit amet, consectetur adipis
                                 cing
-                                elit, sed dooing eiusmod tempor incididut labore Ui / Ux , print template.
+                                elit, sed dooing eiusmod tempor incididut labore Ui / Ux, print template.
                             </p>
                             <div class="person__contact">
                                 <a class="person__link" href="">Facebook</a>
@@ -183,16 +184,16 @@
                             </div>
                         </div>
                         <div class="person__ava_gallery">
-                            <div class="person__ava">
+                            <div class="person__ava person_2">
                                 <h5 class="person__name">sokina jue</h5>
                             </div>
-                            <div class="person__ava">
+                            <div class="person__ava person_3">
                                 <h5 class="person__name">sokina jue</h5>
                             </div>
-                            <div class="person__ava">
+                            <div class="person__ava person_4">
                                 <h5 class="person__name">sokina jue</h5>
                             </div>
-                            <div class="person__ava">
+                            <div class="person__ava person_5">
                                 <h5 class="person__name">sokina jue</h5>
                             </div>
                         </div>
@@ -209,13 +210,10 @@
                 </h2>
                 <p class="subscribe__text section__text">Lorem ipsum dolor sit amet,
                     consectetur adipis cing elit, sed do eiusmod.</p>
-                <div class="subscribe__form_sizing">
-                    <form class="subscribe__form" action="" method="post">
-                        <input class="subscribe__window" id="email" type="email" placeholder="Email Address..."
-                            required>
-                        <button class="action-button subscribe__action-button" type="submit">subscribe</button>
-                    </form>
-                </div>
+                <form class="subscribe__form" action="" method="post">
+                    <input class="subscribe__window" id="email" type="email" placeholder="Email Address..." required>
+                    <button class="action-button subscribe__action-button" type="submit">subscribe</button>
+                </form>
             </section>
         </div>
 
@@ -228,10 +226,9 @@
                     sed do eiusmod tempor incididunt ut labore et.ur adipis cing elit,
                     sed do eiusmod tempor incididunt ut labore et. ur adipis cing elit,
                     sed do eiusmod tempor incididunt ut labore et.</p>
-                <hr class="line team_line">
+                <hr class="line get_line">
             </section>
-            <div class="get__left-box"></div>
-            <section class="get__form section">
+            <section class="get__form ">
                 <div class="form__feedback">
                     <div class="form__window">
                         <input class="feedback__window" id="name" type="name" placeholder="Name" required>
@@ -241,20 +238,15 @@
                         required></textarea>
                     <button class="action-button feedback__action-button" type="submit">Send message</button>
                 </div>
-                <div class="get__right-box box-color">
-                    <div class="get__contact">
-                        <div class="contact__blok">
-                            <h4 class="contact__heading">contact info</h4>
-                            <p class="contact__text section__text">Jalalabad 24 / A, Ambaarkhana, Sylhet, Bangladesh</p>
-                            <a class="contact__mail section__text" href="">redwan@deviserweb.com</a>
-                            <p class="contact__text section__text">(+88) 017 617 46373</p>
-                        </div>
+                <div class="get__contact">
+                    <div class="contact__blok">
+                        <h4 class="contact__heading">contact info</h4>
+                        <p class="contact__text section__text">Jalalabad 24 / A, Ambaarkhana, Sylhet, Bangladesh</p>
+                        <a class="contact__mail section__text" href="">redwan@deviserweb.com</a>
+                        <p class="contact__text section__text">(+88) 017 617 46373</p>
                     </div>
                 </div>
             </section>
-        </div>
-        <div class="blok__local-font">
-            <p class="local-font">Пробую добавить шрифт локально. <br> Получилось!</p>
         </div>
     </main>
     <footer class="footer">
