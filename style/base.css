@@ -1,21 +1,31 @@
+:root {
+  --primary-color-red: #FF2D2D;
+  --secondary-color-red: #FF3F40;
+  --primary-color-grey: #F6F2F2;
+  --secondary-color-grey: #E0E0E0;
+  --primary-color-dark: #2D2D2D;
+  --primary-color-black: #000000;
+  --primary-color-white: #FFFFFF;
+}
+
 .section__heading {
   font-size: 42px;
   line-height: 55px;
   letter-spacing: 0.4px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #000000;
+  color:  var(--primary-color-black);
 }
 
 .section__text {
   font-size: 16px;
   line-height: 28px;
-  color: #000000;
+  color:  var(--primary-color-black);
 }
 
 .line {
   width: 134px;
-  border: 3px solid #FF2D2D;
+  border: 3px solid var(--primary-color-red);
 }
 
 /*Page*/
@@ -33,7 +43,7 @@
 }
 
 .page__header-grey {
-  background-color: #F6F2F2;
+  background-color: var(--primary-color-grey);
 }
 
 .section {
@@ -51,23 +61,23 @@
   line-height: 0px;
   letter-spacing: 0.3px;
   text-transform: uppercase;
-  color: #000000;
+  color: var(--primary-color-black);
 }
 
 .action-button {
   box-sizing: border-box;
   padding: 16px 60px;
-  border: 2px solid #FF2D2D;
+  border: 2px solid var(--primary-color-red);
   border-radius: 3px;
   font-size: 18px;
   text-decoration: none;
-  color: #FF2D2D;
+  color: var(--primary-color-red);
   cursor: pointer;
 }
 
 .action-button__red {
-  background-color: #FF2D2D;
-  color: #FFFFFF;
+  background-color: var(--primary-color-red);
+  color: var(--primary-color-white);
 }
 
 /*Responsive*/
@@ -106,19 +116,18 @@
     letter-spacing: 0.4px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #000000;
+    color:  var(--primary-color-black);
   }
 
   .section__text {
     font-size: 14px;
     line-height: 28px;
-    color: #000000;
+    color:  var(--primary-color-black);
   }
 
   .action-button {
     font-size: 14px;
   }
-
 }
 
 

@@ -28,7 +28,7 @@
 }
 
 .get__form::after {
-    background-color: #2D2D2D;
+    background-color: var(--primary-color-dark);
     content: '';
     grid-column: 5 / 6;
     grid-row: 2 / 3;
@@ -57,7 +57,7 @@
     box-sizing: border-box;
     border-radius: 3px;
     border: none;
-    background-color: #F6F2F2;
+    background-color: var(--primary-color-grey);
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -65,7 +65,7 @@
 }
 
 input:focus {
-    background-color: #E0E0E0;
+    background-color: var(--secondary-color-grey);
     outline: none;
 }
 
@@ -80,7 +80,7 @@ input:focus {
     resize: none;
     border-radius: 3px;
     border: none;
-    background-color: #F6F2F2;
+    background-color: var(--primary-color-grey);
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -89,21 +89,21 @@ input:focus {
 }
 
 textarea:focus {
-    background-color: #E0E0E0;
+    background-color: var(--secondary-color-grey);
     outline: none;
 }
 
 .feedback__action-button {
     width: 100%;
-    background-color: #FF2D2D;
-    color: #FFFFFF;
+    background-color: var(--primary-color-red);
+    color: var(--primary-color-white);
     text-transform: uppercase;
 }
 
 .get__contact {
     min-width: 680px;
     min-height: 470px;
-    background-color: #2D2D2D;
+    background-color: var(--primary-color-dark);
     grid-column: 4 / 5;
     grid-row: 2 / 3;
 }
@@ -120,24 +120,24 @@ textarea:focus {
     line-height: 34px;
     letter-spacing: 0.3px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--primary-color-white);
 }
 
 .contact__text {
     width: 314px;
     margin: 30px 0 26px 0;
-    color: #FFFFFF;
+    color: var(--primary-color-white);
 }
 
 .contact__mail {
     margin: 30px 0 20px 0;
-    color: #FFFFFF;
+    color: var(--primary-color-white);
     text-decoration: none;
 }
 
 .contact__mail:hover {
     text-decoration: underline;
-    color: #FF3F40;
+    color: var(--secondary-color-red);
 }
 
 /*Responsive*/

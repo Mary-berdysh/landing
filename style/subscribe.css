@@ -1,6 +1,6 @@
 .page__subscribe {
     width: 100%;
-    background-color: #2D2D2D;
+    background-color: var(--primary-color-dark);
 }
 
 .subscribe {
@@ -12,7 +12,7 @@
 }
 
 .subscribe__heading {
-    color: #FFFFFF;
+    color: var(--primary-color-white);
     text-align: center;
     text-transform: none;
     letter-spacing: 1.05px;
@@ -21,7 +21,7 @@
 .subscribe__text {
     margin-top: 16px;
     margin-bottom: 56px;
-    color: #FFFFFF;
+    color: var(--primary-color-white);
     text-align: center;
 }
 
@@ -48,8 +48,8 @@
 .subscribe__action-button {
     padding: 30px 60px;
     text-transform: uppercase;
-    background-color: #FF2D2D;
-    color: #FFFFFF;
+    background-color: var(--primary-color-red);
+    color: var(--primary-color-white);
 }
 
 /*Responsive*/

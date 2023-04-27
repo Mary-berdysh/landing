@@ -17,7 +17,7 @@
   line-height: 72px;
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  color: #000000;
+  color: var(--primary-color-black);
 }
 
 .intro__text {
@@ -26,8 +26,8 @@
 }
 
 .action-button__intro {
-  background-color: #FF2D2D;
-  color: #FFFFFF;
+  background-color: var(--primary-color-red);
+  color: var(--primary-color-white);
 }
 
 .red-cube {

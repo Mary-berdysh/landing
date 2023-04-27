@@ -10,7 +10,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
 .footer__content-text {
@@ -45,7 +44,7 @@
     box-sizing: border-box;
     padding-bottom: 20px;
     padding-top: 0;
-    background-color: #2D2D2D;
+    background-color: var(--primary-color-dark);
   }
 
   .footer__content {
