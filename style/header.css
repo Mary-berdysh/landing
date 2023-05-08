@@ -103,7 +103,7 @@
   }
 }
 
-@media screen and (max-width: 800px) and (min-width: 430px) {
+@media screen and (max-width: 801px) and (min-width: 430px) {
 
   .burger {
     display: flex;

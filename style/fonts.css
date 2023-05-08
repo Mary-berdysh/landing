@@ -1,5 +1,23 @@
 @font-face {
-  src: url('../fonts/Journalism_\(graphicsland.ru\).ttf') format('truetype');
-  font-family: 'serif';
+  src: url('../fonts/static/OpenSans-Bold.ttf') format('truetype');
+  font-family: 'sans-serif';
+  font-weight: 700;
+}
+
+@font-face {
+  src: url('../fonts/static/OpenSans-Medium.ttf') format('truetype');
+  font-family: 'sans-serif';
+  font-weight: 600;
+}
+
+@font-face {
+  src: url('../fonts/static/OpenSans-Regular.ttf') format('truetype');
+  font-family: 'sans-serif';
+  font-weight: 400;
+}
+
+@font-face {
+  src: url('../fonts/static/OpenSans-Italic.ttf') format('truetype');
+  font-family: 'sans-serif';
   font-weight: 400;
 }
